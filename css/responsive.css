@@ -1,0 +1,41 @@
+/*==========================
+tab rotate 
+===========================*/
+@media (min-width: 992px) and (max-width: 1200px) {
+	.features-content-wrapper .column-title {
+		padding: 0;
+	}
+}
+
+/*==========================
+tab device 
+===========================*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.features-content-wrapper .column-title {
+		padding: 0;
+	}
+#first {
+		order: 2;
+	}
+	.features-content-wrapper {
+		padding: 30px 145px 30px 145px;
+	}
+}
+
+/*==========================
+small device /mobile sm and large
+===========================*/
+@media (max-width: 767px) {
+	.features-content-wrapper .column-title {
+		padding: 0;
+	}
+.features-image {
+    background-position: center;
+	}
+.features-image.features-right-image {
+    background-position: 100% 100%;
+}
+#first {
+		order: 2;
+	}
+}
